@@ -169,3 +169,6 @@ C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\obj\Debug\net9.0\re
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\obj\Debug\net9.0\KASHOP.PL.pdb
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\obj\Debug\net9.0\KASHOP.PL.genruntimeconfig.cache
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\obj\Debug\net9.0\ref\KASHOP.PL.dll
+C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Mapster.dll
+C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Mapster.Core.dll
+C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Scalar.AspNetCore.dll
