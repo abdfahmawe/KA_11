@@ -28,7 +28,7 @@ namespace KASHOP.PL
             builder.Services.AddScoped<ICategorySarvecies, CategoryServesices>();
             builder.Services.AddScoped<IBrandRepositry, BrandRepositry>();
             builder.Services.AddScoped<IBrandService, BrandService>();
-
+            builder.Services.AddScoped(typeof(IGenericRepositry<>), typeof(GenericRepositry<>));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
