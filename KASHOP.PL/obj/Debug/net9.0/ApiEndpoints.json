@@ -1,5 +1,100 @@
 [
   {
+    "ContainingType": "KASHOP.PL.Controllers.BrandsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Brands",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.PL.Controllers.BrandsController",
+    "Method": "Create",
+    "RelativePath": "api/Brands",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requist",
+        "Type": "KASHOP.DAL.DTO.Requists.BrandRequistDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.PL.Controllers.BrandsController",
+    "Method": "GetById",
+    "RelativePath": "api/Brands/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.PL.Controllers.BrandsController",
+    "Method": "Update",
+    "RelativePath": "api/Brands/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "requist",
+        "Type": "KASHOP.DAL.DTO.Requists.BrandRequistDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.PL.Controllers.BrandsController",
+    "Method": "Delete",
+    "RelativePath": "api/Brands/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.PL.Controllers.BrandsController",
+    "Method": "ToggleStatus",
+    "RelativePath": "api/Brands/ToggleStatus/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KASHOP.PL.Controllers.CategoriesController",
     "Method": "GetAll",
     "RelativePath": "api/Categories",

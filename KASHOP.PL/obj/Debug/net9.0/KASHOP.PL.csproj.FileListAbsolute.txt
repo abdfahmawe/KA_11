@@ -172,3 +172,8 @@ C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\obj\Debug\net9.0\re
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Mapster.dll
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Mapster.Core.dll
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Scalar.AspNetCore.dll
+C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
