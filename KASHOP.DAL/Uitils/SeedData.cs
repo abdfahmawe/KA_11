@@ -85,9 +85,9 @@ namespace KASHOP.DAL.Uitils
                     City = "Tulkarm ",
                     Email = "abd_fahmawe@gmail.com",
                 };
-                await _userManager.CreateAsync(user1);
-                await _userManager.CreateAsync(user2);
-                await _userManager.CreateAsync(user3);
+                await _userManager.CreateAsync(user1 , "pass@1212");
+                await _userManager.CreateAsync(user2, "pass@1212");
+                await _userManager.CreateAsync(user3, "pass@1212");
                 // assign roles to users
                 await _userManager.AddToRoleAsync(user1, "Admin");
                 await _userManager.AddToRoleAsync(user2, "Super_Admin");

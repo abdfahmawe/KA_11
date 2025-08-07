@@ -6,6 +6,7 @@ using KASHOP.DAL.Repositories;
 using KASHOP.DAL.Repositories.Classes;
 using KASHOP.DAL.Repositories.Interfaces;
 using KASHOP.DAL.Uitils;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
@@ -36,6 +37,8 @@ namespace KASHOP.PL
 
             builder.Services.AddScoped<ISeedData,SeedData>();
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+
+            builder.Services.AddScoped<IAthinticationService, AthinticationService>();
                
             var app = builder.Build();
            

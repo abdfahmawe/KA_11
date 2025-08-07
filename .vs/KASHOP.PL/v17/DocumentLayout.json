@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8DCABBF-8F5D-4832-A12E-86C49DEFBE86}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\hp\\documents\\asp11\\api\\projects\\kashop.pl\\kashop.pl\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DCABBF-8F5D-4832-A12E-86C49DEFBE86}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DCABBF-8F5D-4832-A12E-86C49DEFBE86}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\hp\\documents\\asp11\\api\\projects\\kashop.pl\\kashop.pl\\areas\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DCABBF-8F5D-4832-A12E-86C49DEFBE86}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\areas\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1C1838-A35C-4728-9FAF-53E919D60E3B}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\hp\\documents\\asp11\\api\\projects\\kashop.pl\\kashop.bll\\services\\classes\\athinticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB1C1838-A35C-4728-9FAF-53E919D60E3B}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\services\\classes\\athinticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8DCABBF-8F5D-4832-A12E-86C49DEFBE86}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\hp\\documents\\asp11\\api\\projects\\kashop.pl\\kashop.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8DCABBF-8F5D-4832-A12E-86C49DEFBE86}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91CB2D12-5145-4754-87DD-E5C154D08A5A}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\hp\\documents\\asp11\\api\\projects\\kashop.pl\\kashop.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91CB2D12-5145-4754-87DD-E5C154D08A5A}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91CB2D12-5145-4754-87DD-E5C154D08A5A}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\hp\\documents\\asp11\\api\\projects\\kashop.pl\\kashop.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91CB2D12-5145-4754-87DD-E5C154D08A5A}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91CB2D12-5145-4754-87DD-E5C154D08A5A}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\hp\\documents\\asp11\\api\\projects\\kashop.pl\\kashop.dal\\uitils\\iseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91CB2D12-5145-4754-87DD-E5C154D08A5A}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\uitils\\iseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91CB2D12-5145-4754-87DD-E5C154D08A5A}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\hp\\documents\\asp11\\api\\projects\\kashop.pl\\kashop.dal\\uitils\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91CB2D12-5145-4754-87DD-E5C154D08A5A}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\uitils\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.DAL\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "KASHOP.DAL\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.DAL\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "KASHOP.DAL\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBQAAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\Controllers\\BrandsController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "KASHOP.PL\\Controllers\\BrandsController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T15:21:06.707Z",
+              "WhenOpened": "2025-08-07T10:35:00.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.DAL\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "KASHOP.DAL\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.DAL\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "KASHOP.DAL\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\Areas\\Identity\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\Areas\\Identity\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\Areas\\Identity\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "KASHOP.PL\\Areas\\Identity\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T13:47:16.477Z",
+              "WhenOpened": "2025-08-06T13:32:45.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\Program.cs",
-              "RelativeDocumentMoniker": "KASHOP.PL\\Program.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\Program.cs",
-              "RelativeToolTip": "KASHOP.PL\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAABQAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AthinticationService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.BLL\\Services\\Classes\\AthinticationService.cs",
+              "RelativeDocumentMoniker": "KASHOP.BLL\\Services\\Classes\\AthinticationService.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.BLL\\Services\\Classes\\AthinticationService.cs",
+              "RelativeToolTip": "KASHOP.BLL\\Services\\Classes\\AthinticationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwB8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T13:25:28.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.DAL\\Uitils\\SeedData.cs",
-              "RelativeDocumentMoniker": "KASHOP.DAL\\Uitils\\SeedData.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.DAL\\Uitils\\SeedData.cs",
-              "RelativeToolTip": "KASHOP.DAL\\Uitils\\SeedData.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAiwFAAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T15:02:35.683Z",
+              "WhenOpened": "2025-08-06T13:17:23.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ISeedData.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.DAL\\Uitils\\ISeedData.cs",
-              "RelativeDocumentMoniker": "KASHOP.DAL\\Uitils\\ISeedData.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.DAL\\Uitils\\ISeedData.cs",
-              "RelativeToolTip": "KASHOP.DAL\\Uitils\\ISeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\Program.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\Program.cs",
+              "RelativeToolTip": "KASHOP.PL\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T15:01:58.154Z",
+              "WhenOpened": "2025-08-05T13:25:28.436Z",
               "EditorCaption": ""
             }
           ]

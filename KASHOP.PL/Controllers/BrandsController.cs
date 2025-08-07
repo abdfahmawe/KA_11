@@ -2,6 +2,7 @@
 using KASHOP.DAL.Data;
 using KASHOP.DAL.DTO.Requists;
 using KASHOP.DAL.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Scalar.AspNetCore;
@@ -21,6 +22,7 @@ namespace KASHOP.PL.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetAll() =>  Ok(_brandServesices.GetAll());
         
         [HttpGet("{id}")]
