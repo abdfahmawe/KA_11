@@ -34,10 +34,14 @@ namespace KASHOP.BLL.Services.Classes
             return _repositry.Delete(entity);
         }
 
-        public IEnumerable<TResponse> GetAll()
+        public IEnumerable<TResponse> GetAll(bool onlyActive = false)
         {
-            var entities = _repositry.GetAll();
-            return _repositry.Adapt<IEnumerable<TResponse>>();
+            var entities = _repositry.GetAll(); 
+            if(onlyActive)
+            {
+                entities = entities.Where(e => e.status == Status.Active);
+            }
+            return entities.Adapt<IEnumerable<TResponse>>(); 
         }
 
         public TResponse? GetById(int id)

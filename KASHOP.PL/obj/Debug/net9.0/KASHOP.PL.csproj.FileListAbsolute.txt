@@ -177,3 +177,4 @@ C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Mi
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

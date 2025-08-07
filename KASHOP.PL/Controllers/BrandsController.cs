@@ -12,6 +12,7 @@ namespace KASHOP.PL.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Admin")]
     public class BrandsController : ControllerBase
     {
         private readonly IBrandService _brandServesices;

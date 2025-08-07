@@ -14,7 +14,7 @@ namespace KASHOP.BLL.Services.Interfaces
         int Create(TRequist requist);
         int Update(TRequist requist, int id);
         int Delete(int id);
-        IEnumerable<TResponse> GetAll();
+        IEnumerable<TResponse> GetAll(bool onlyActive = false);
         TResponse? GetById(int id);
         public bool ToogleStatus(int id);
     }
