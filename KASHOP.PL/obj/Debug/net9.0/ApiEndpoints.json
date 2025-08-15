@@ -243,6 +243,63 @@
   },
   {
     "ContainingType": "KASHOP.PL.Areas.Identity.Controllers.AccountController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Identity/Account/Change-Password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requist",
+        "Type": "KASHOP.DAL.DTO.Requists.ChangePasswordRequist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "KASHOP.PL.Areas.Identity.Controllers.AccountController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Identity/Account/ConfirmEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "KASHOP.PL.Areas.Identity.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Identity/Account/Login",
     "HttpMethod": "POST",
@@ -284,6 +341,32 @@
     "ReturnTypes": [
       {
         "Type": "KASHOP.DAL.DTO.Responses.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "KASHOP.PL.Areas.Identity.Controllers.AccountController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Identity/Account/Reset-Password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requist",
+        "Type": "KASHOP.DAL.DTO.Requists.ForgerPasswordRequist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",

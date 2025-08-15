@@ -70,6 +70,7 @@ namespace KASHOP.DAL.Uitils
                     UserName = "tariqshreem",
                     City = "Qalqilia ",
                     Email = "Tariq_shreem@gmail.com",
+                    EmailConfirmed =true,
                 };
                 var user2 = new ApplicationUser()
                 {
@@ -77,6 +78,7 @@ namespace KASHOP.DAL.Uitils
                     UserName = "afnanshreem",
                     City = "Qalqilia ",
                     Email = "afnan_shreem@gmail.com",
+                    EmailConfirmed = true,
                 };
                 var user3 = new ApplicationUser()
                 {
@@ -84,6 +86,7 @@ namespace KASHOP.DAL.Uitils
                     UserName = "abdfahmawe",
                     City = "Tulkarm ",
                     Email = "abd_fahmawe@gmail.com",
+                    EmailConfirmed = true,
                 };
                 await _userManager.CreateAsync(user1 , "pass@1212");
                 await _userManager.CreateAsync(user2, "pass@1212");

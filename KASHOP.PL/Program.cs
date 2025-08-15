@@ -6,9 +6,11 @@ using KASHOP.DAL.Repositories;
 using KASHOP.DAL.Repositories.Classes;
 using KASHOP.DAL.Repositories.Interfaces;
 using KASHOP.DAL.Uitils;
+using KASHOP.PL.Utils;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
@@ -39,9 +41,12 @@ namespace KASHOP.PL
             builder.Services.AddScoped(typeof(IGenericRepositry<>), typeof(GenericRepositry<>));
 
             builder.Services.AddScoped<ISeedData,SeedData>();
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
 
             builder.Services.AddScoped<IAthinticationService, AthinticationService>();
+
+            builder.Services.AddScoped<IEmailSender, EmailSetting>();
 
             builder.Services.AddAuthentication(options =>
             {

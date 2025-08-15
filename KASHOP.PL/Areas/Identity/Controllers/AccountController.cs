@@ -27,10 +27,30 @@ namespace KASHOP.PL.Areas.Identity.Controllers
         }
 
         [HttpPost("Login")]
-        public async Task<ActionResult<UserResponse>> Login([FromBody]LoginRequist  loginRequest)
+        public async Task<ActionResult<UserResponse>> Login([FromBody] LoginRequist loginRequest)
         {
             var resulet = await _athinticationService.LoginAsync(loginRequest);
             return Ok(resulet);
+        }
+        [HttpGet("ConfirmEmail")]
+        public async Task<ActionResult<string>> ConfirmEmail([FromQuery] string token, [FromQuery] string UserId)
+        {
+            var result = await _athinticationService.ConfirmEmail(token, UserId);
+            return Ok(result);
+        }
+
+        [HttpPost("Reset-Password")]
+        public async Task<ActionResult<string>> ResetPassword([FromBody] ForgerPasswordRequist requist)
+        {
+            var result = await _athinticationService.ResetPassword(requist);
+            return Ok(result);
+        }
+
+        [HttpPost("Change-Password")]
+        public async Task<ActionResult<string>> ChangePassword([FromBody] ChangePasswordRequist requist)
+        {
+            var result = await _athinticationService.ChangePassword(requist);
+            return Ok(result);
         }
     }
 }

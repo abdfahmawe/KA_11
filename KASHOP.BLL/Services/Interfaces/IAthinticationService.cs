@@ -1,5 +1,6 @@
 ﻿using KASHOP.DAL.DTO.Requists;
 using KASHOP.DAL.DTO.Responses;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,9 @@ namespace KASHOP.BLL.Services.Interfaces
     {
         Task<UserResponse> LoginAsync(LoginRequist loginRequist);
         Task<UserResponse> RegisterAsync(RegisterRequist registerRequist);
+        Task<ActionResult<string>> ConfirmEmail(string token, string UserId);
+        Task<string> ResetPassword(ForgerPasswordRequist requist);
 
+        Task<bool> ChangePassword(ChangePasswordRequist requist);
     }
 }
