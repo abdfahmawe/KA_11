@@ -26,6 +26,72 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "KASHOP.PL.Areas.Admin.Controllers.ProductsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Admin/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KASHOP.PL.Areas.Admin.Controllers.ProductsController",
+    "Method": "Create",
+    "RelativePath": "api/Admin/Products/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Rate",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "MainImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BrandId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KASHOP.PL.Controllers.BrandsController",
     "Method": "GetAll",
     "RelativePath": "api/Brands",
@@ -375,26 +441,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "KASHOP.PL.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[KASHOP.PL.WeatherForecast, KASHOP.PL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

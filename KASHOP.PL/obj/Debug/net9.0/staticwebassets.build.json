@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "lWdMASA9yCB16ObJkfsVnnYgjdBKbJ7EVGscctvSeK4=",
+  "Hash": "YaY+tCCt9BwyyPlUHkxoONMzH6v9m6QrnxCKLVsSNi4=",
   "Source": "KASHOP.PL",
   "BasePath": "_content/KASHOP.PL",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "KASHOP.PL\\wwwroot",
+      "Source": "KASHOP.PL",
+      "ContentRoot": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\wwwroot\\",
+      "BasePath": "_content/KASHOP.PL",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\wwwroot\\Images\\00000000-0000-0000-0000-000000000000.jpeg",
+      "SourceId": "KASHOP.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\wwwroot\\",
+      "BasePath": "_content/KASHOP.PL",
+      "RelativePath": "Images/00000000-0000-0000-0000-000000000000#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2bzt5007ac",
+      "Integrity": "/jxT7mkSdQIch7uuFj5OXgJy0dpXcLWOGwd3oqYXHA0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\00000000-0000-0000-0000-000000000000.jpeg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Images/00000000-0000-0000-0000-000000000000.2bzt5007ac.jpeg",
+      "AssetFile": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\wwwroot\\Images\\00000000-0000-0000-0000-000000000000.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/jxT7mkSdQIch7uuFj5OXgJy0dpXcLWOGwd3oqYXHA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 Aug 2025 11:16:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2bzt5007ac"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/00000000-0000-0000-0000-000000000000.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/jxT7mkSdQIch7uuFj5OXgJy0dpXcLWOGwd3oqYXHA0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/00000000-0000-0000-0000-000000000000.jpeg",
+      "AssetFile": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\wwwroot\\Images\\00000000-0000-0000-0000-000000000000.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/jxT7mkSdQIch7uuFj5OXgJy0dpXcLWOGwd3oqYXHA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 Aug 2025 11:16:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/jxT7mkSdQIch7uuFj5OXgJy0dpXcLWOGwd3oqYXHA0="
+        }
+      ]
+    }
+  ]
 }

@@ -181,3 +181,4 @@ C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Mi
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\hp\Documents\asp11\API\Projects\KASHOP.PL\KASHOP.PL\bin\Debug\net9.0\KASHOP.PL.staticwebassets.runtime.json

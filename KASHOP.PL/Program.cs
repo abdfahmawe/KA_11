@@ -38,6 +38,13 @@ namespace KASHOP.PL
             builder.Services.AddScoped<ICategorySarvecies, CategoryServesices>();
             builder.Services.AddScoped<IBrandRepositry, BrandRepositry>();
             builder.Services.AddScoped<IBrandService, BrandService>();
+
+            builder.Services.AddScoped<IProductRepositry, ProductRepositry>();
+
+            builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IFileService, FileService>();
+
+
             builder.Services.AddScoped(typeof(IGenericRepositry<>), typeof(GenericRepositry<>));
 
             builder.Services.AddScoped<ISeedData,SeedData>();
@@ -87,6 +94,7 @@ namespace KASHOP.PL
 
             app.UseAuthorization();
 
+            app.UseStaticFiles();
 
             app.MapControllers();
 

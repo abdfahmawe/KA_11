@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hp\\Documents\\asp11\\API\\Projects\\KASHOP.PL\\KASHOP.PL\\wwwroot\\Images\\00000000-0000-0000-0000-000000000000.jpeg",
+      "PackagePath": "staticwebassets\\Images\\00000000-0000-0000-0000-000000000000.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.KASHOP.PL.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.KASHOP.PL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.KASHOP.PL.props",
+      "PackagePath": "build\\KASHOP.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.KASHOP.PL.props",
+      "PackagePath": "buildMultiTargeting\\KASHOP.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.KASHOP.PL.props",
+      "PackagePath": "buildTransitive\\KASHOP.PL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

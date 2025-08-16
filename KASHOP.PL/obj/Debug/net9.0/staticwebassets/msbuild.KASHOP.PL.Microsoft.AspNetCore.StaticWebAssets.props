@@ -1,0 +1,22 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\00000000-0000-0000-0000-000000000000.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>KASHOP.PL</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/KASHOP.PL</BasePath>
+      <RelativePath>Images/00000000-0000-0000-0000-000000000000.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2bzt5007ac</Fingerprint>
+      <Integrity>/jxT7mkSdQIch7uuFj5OXgJy0dpXcLWOGwd3oqYXHA0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\00000000-0000-0000-0000-000000000000.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>
